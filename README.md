@@ -39,7 +39,7 @@ First, include ```@EnableDataHerd``` annotation on Spring Boot application class
 
 ```
 @EnableDataHerd(
-scriptsBasePackage = "us.deloitteinnovation.utils", 
+scriptsBasePackage = "org.jas.plugins", 
 isBlocking = true)
 @SpringBootApplication
 @EnableAutoConfiguration
@@ -109,7 +109,7 @@ To disable it, set the following property as an environmental variable, runtime 
 Execute the following Spring Boot class inside ```test-project-with-scripts``` will execute all release scripts for the included test project.
 
 ```
-@EnableDataHerd(scriptsBasePackage = "us.deloitteinnovation.utils", isBlocking = true, initialReleaseTag = 1.2)
+@EnableDataHerd(scriptsBasePackage = "org.jas.plugins", isBlocking = true, initialReleaseTag = 1.2)
 @SpringBootApplication
 @EnableAutoConfiguration
 public class AppWithScriptsBoot {
@@ -184,8 +184,6 @@ Now, run it again:
 
 As expected, the release scripts that were previously run were excluded from execution.
 
-# More Examples
-   CS use case: https://stash.tools.deloitteinnovation.us/projects/CFSA/repos/core/browse/cfsa/cfsa-backend/cfsa-engine/src/main/java/us/deloitteinnovation/cfsa/release/release1dot2/scripts
 
 # TODO
 

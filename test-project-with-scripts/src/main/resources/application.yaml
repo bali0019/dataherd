@@ -1,0 +1,13 @@
+spring.profiles.active: local
+
+---
+spring:
+  profiles: local
+mongodb:
+  mongoHost: 10.120.43.130
+  mongoPort: 27017
+  mongoUser: cfsa-jas
+  #mongoUser: ENC(63wb/bWqe2k0V/JXyLgxs9DqZsYbez36)
+  mongoPassword: cfsa-jas
+  #mongoPassword: ENC(whN4jUTOuyDSaIIKGZl1/EfnmJaL0Zuv)
+  mongoDBName: cfsa-jas

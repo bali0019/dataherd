@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataherd/dataherd.iml" filepath="$PROJECT_DIR$/dataherd/dataherd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataherdparent.iml" filepath="$PROJECT_DIR$/dataherdparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-project-with-scripts/test-project-with-scripts.iml" filepath="$PROJECT_DIR$/test-project-with-scripts/test-project-with-scripts.iml" />
+    </modules>
+  </component>
+</project>
